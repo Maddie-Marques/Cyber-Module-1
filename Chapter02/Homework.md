@@ -73,3 +73,14 @@ Upon the return trip: the response reverses through the same five layers on the 
 
 STEP 4 — A diagram of the TCP three-way handshake for a request you traced (or attempted with Wireshark):
 ANSWER: I did the activity in Packet Tracer:
+w
+
+
+STEP 5 — Answer the book's own Written Lab (fill in the 7 OSI layers, top to bottom):
+ANSWER: L7. Application
+L6. Presentation
+L5. Session
+L4. Transport
+L3. Network
+L2. Data Link
+L1. Physical
