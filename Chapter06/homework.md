@@ -51,6 +51,7 @@ Step 4 — 5-Layer Encapsulation Stack (HTTP GET Request)
 <img width="1380" height="796" alt="image" src="https://github.com/user-attachments/assets/52743ea7-2aa1-4dc2-b3a5-337be79c8602" />
 
 
+
 | Step | PDU | What gets added |
 |---|---|---|
 | 1 | Data | HTTP GET request, plain application data |
