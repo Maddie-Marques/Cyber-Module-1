@@ -56,16 +56,20 @@ Step 5 — Your Step 4 decoding of 10GBaseLR, 1000BaseSX, and 100BaseTX from the
 
 ---
 
-Step 6 — Written Lab: Binary, Decimal, and Hexadecimal Conversions
+Step 6 — Your answers to the book's own Written Lab (the 10 binary/decimal/hexadecimal conversion fill-ins)
 
-1. The decimal value of **15** is equal to 0xF in hexadecimal.
+Written Lab
+
+You can find the answers to the written labs in Appendix A. Fill in the blank with the answer to conversion of decimal, binary, and hexadecimal statements.
+
+1. The decimal value of **16** is equal to 0xF in hexadecimal.
 2. The decimal value of 5 equals **0101** in binary.
 3. The decimal value of 14 equals **0xE** in hexadecimal.
 4. The binary value of 0111 equals **7** in decimal.
 5. The binary value of **11100** equals 28 in decimal.
-6. The hexadecimal value of **0x10** equals 16 in decimal.
-7. The decimal value of **11** equals 0xb in hexadecimal.
-8. The hexadecimal value of 0xE equals **1110** in binary.
+6. The hexadecimal value of **0xF** equals 16 in decimal.
+7. The decimal value of **0011** equals 0xb in hexadecimal.
+8. The hexadecimal value of 0xE equals **1101** in binary.
 9. The decimal value of 177 equals **10110001** in binary.
 10. The decimal value of 208 equals **0xD0** in hexadecimal.
 
