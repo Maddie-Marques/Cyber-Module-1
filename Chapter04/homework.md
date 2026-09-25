@@ -1,11 +1,6 @@
-[chapter-4-current-ethernet-specifications.md](https://github.com/user-attachments/files/32636743/chapter-4-current-ethernet-specifications.md)
-# Chapter 4 — The Current Ethernet Specifications
+Step 1 — Your answers to the book's Exercise 4.1 (your own IP and MAC address converted between binary/decimal/hex)
 
-*Domain 1.0, Objective 1.5 (wired transmission media and the 802.3 standards)*
-
----
-
-## Step 1 — Exercise 4.1: Converting Binary, Decimal, and Hexadecimal
+Exercise 4.1: Converting Binary, Decimal, and Hexadecimal
 
 **IP Address: 192.168.51.238**
 
