@@ -1,5 +1,6 @@
 **<u>CHAPTER 1 — Introduction to Networks</u>**
 
+
 1.  **<u>Workstations, Servers & Hosts</u>**
 
 A network is simply two or more connected computers sharing resources — files, printers, an internet connection — by communicating in binary. These three terms (workstation, server, host) overlap on purpose.
@@ -9,6 +10,7 @@ A network is simply two or more connected computers sharing resources — files,
 - **Server:** also powerful but “at the service" of the network, running a network operating system. Works best when dedicated to a single job — file, mail, print, web (via HTTPS), fax, applications, telephony, or proxy server. Needs far more CPU/storage/memory than a client since it's serving a crowd, and should be kept somewhere physically secure.
 
 - **Host:** the loosest term of them all — TCP/IP-speak for *any* device with an IP address. Workstations and servers both qualify. It's a holdover from the main frame era, when only mainframes ("hosts") got addresses and everything else was just a dumb terminal.
+  
 
 2.  **<u>LANs, WANs, and the Scoped Variants</u>**
 
@@ -28,6 +30,7 @@ A network is simply two or more connected computers sharing resources — files,
 | **MPLS**  | Tags data with labels at the network's edge, forwards purely based on those labels through virtual (not physical) links — enables traffic prioritization ( e.g., voice over plain data) and redundancy via multiple paths through the "cloud". |
 | **mGRE**  | Dynamically creates/tears down VPN tunnels to one or many nodes without pre-configured static end points (used in Dynamic Multipoint VPN).                                                                                                     |
 
+
 3.  **<u>Peer-to-Peer VS. Client-Server</u>**
 
 You can't tell these apart just by looking at the wiring — the difference is logical, not physical.
@@ -35,6 +38,7 @@ You can't tell these apart just by looking at the wiring — the difference is l
 **Peer-to-Peer:** No central authority — every machine is a peer and whichever one holds a resource decides who gets access to it. A machine can be both a client and a server at once. Works fine for small networks with light security needs, but backups get sketchy, and every machine has to maintain its own user list and passwords, which fall out of sync fast.
 
 **Client-server:** Flips this model — one server runs the network OS, centralizes security storage, and user account and directs clients to resources easier to find security of clients going straight to each other. This makes resources easier to find, security much tighter (all accounts live on one server that's never used as a workstation), and the network more scalable — despite doing more work, performance is actually better organised. Peer-to-Peer is simpler; client-server scales and secures better. Most real networks today are a **hybrid** of both.
+
 
 4.  **<u>Physical Topologies</u>**
 
@@ -57,6 +61,7 @@ Bus, star, and mesh sit at three different points on the same trade-off: cost / 
 - **Hybrid:** A mix of two or more topology types working together in the same network (e.g., star-connected LANs joined in a fall mesh, connected to a WAN ring).
 
 **Why it matters:** Bus and mesh are the two extremes — cheapest/least fault-tolerant vs. most fault-tolerant / least affordable. **Star** is the practical middle ground almost every real LAN uses today.
+
 
 5.  **<u>Backbone, Segments & Related Infrastructure</u>**
 
