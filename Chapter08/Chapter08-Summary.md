@@ -149,9 +149,10 @@ Memorise the process, not the numbers. Only the block size changes when the mask
 
 The Textbook uses a router and two or more physical networks (Figures 8.1 - 8.2) to show why you subnet:
 
-<img src="./media-ch8/image1.png" style="width:7.75253in;height:2.74092in" />
+<img width="1163" height="411" alt="image" src="https://github.com/user-attachments/assets/10ef1863-422e-4439-897c-1d28646890c7" />
 
-<img src="./media-ch8/image2.png" style="width:7.91667in;height:4.92708in" />once you add a router, every physical network needs its own logical network. A /25 gives two networks, and a /26 gives fours with room for another router interface.
+
+<img width="1188" height="739" alt="image" src="https://github.com/user-attachments/assets/5fa09e87-8d8a-4334-aad9-d2188c49ec98" /> once you add a router, every physical network needs its own logical network. A /25 gives two networks, and a /26 gives fours with room for another router interface.
 
 ## <u>Subnetting in Your Head (Class C):</u>
 
@@ -311,7 +312,8 @@ work four pings **from the inside out: loopbackown IPdefault gatewayremote host*
 
 **Scenario (Figure 8.3)**:
 
-<img src="./media-ch8/image3.png" style="width:7.9in;height:4.30417in" />
+<img width="1185" height="646" alt="image" src="https://github.com/user-attachments/assets/7f07ca89-7da3-4974-9f2e-6192921a3b9c" />
+
 
 Sally can't reach a server on a remote network. From her host:
 
@@ -415,7 +417,8 @@ A wrong **IP, mask, or default gateway** is a common misconfiguration. After the
 
 **Problem 1 (Figure 8.4): Steps 1-3 Work, Step 4 Fails**
 
-<img src="./media-ch8/image4.png" style="width:6.45109in;height:4.20376in" />
+<img width="961" height="626" alt="image" src="https://github.com/user-attachments/assets/268924a6-4881-40df-bcde-d36b723caf2a" />
+
 
 All networks use **/27** (block 32):
 
@@ -429,7 +432,8 @@ All networks use **/27** (block 32):
 
 **Problem 2 (Figure 8.5)**
 
-<img src="./media-ch8/image5.png" style="width:6.39198in;height:4.1875in" />
+<img width="959" height="628" alt="image" src="https://github.com/user-attachments/assets/0cff37b7-675d-4b41-960c-1f262e374fa3" />
+
 
 All networks use **/29** (block 8):
 
@@ -507,7 +511,7 @@ Work backward from the block size to the mask (use the Class C table in Topic 3)
 
 **Always size for the network needing the most hosts**.
 
-<img src="./media-ch8/image6.jpeg" style="width:8.48056in;height:4.89653in" />**Example (Figure 8.9)**:
+<img width="1272" height="734" alt="image" src="https://github.com/user-attachments/assets/3a54318f-7014-416a-be16-6d41610f5342" />**Example (Figure 8.9)**:
 
 one Class C network, 5 subnets needed, and the Chicago office needs 15 users.
 
@@ -603,7 +607,8 @@ Addresses used before translation are local. Addresses used after are global (us
 
 ## <u>How NAT Works:</u>
 
-<img src="./media-ch8/image7.jpeg" style="width:7.9in;height:5.28403in" />**Basic translation (Figure 8.11):** <img src="./media-ch8/image8.jpeg" style="width:7.9in;height:5.07569in" />
+<img src="./media-ch8/image7.jpeg" style="width:7.9in;height:5.28403in" />**Basic translation (Figure 8.11):** <img width="1185" height="793" alt="image" src="https://github.com/user-attachments/assets/257191ba-b913-425b-91ca-c77e7c9c6c2b" />
+
 
 1.  Host 10.1.1.1 sends an outbound packet to the NAT border router.
 
@@ -615,7 +620,8 @@ Addresses used before translation are local. Addresses used after are global (us
 
 **With PAT (Figure 8.12)**:
 
-<img src="./media-ch8/image8.jpeg" style="width:7.9in;height:5.07569in" />
+<img width="1185" height="761" alt="image" src="https://github.com/user-attachments/assets/a204f4cb-5d2d-4230-a819-597a01190d0d" />
+
 
 all inside hosts get translated to one IP address. The NAT table adds **port numbers** alongside the inside local and outside global addresses, and those ports tell the router which host gets the return traffic.
 
